@@ -1,0 +1,107 @@
+body {
+    color: #212529;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 32px;
+  }
+  
+  .form-container {
+    width: 600px;
+    max-width: calc(100vw - 32px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  .input-label {
+    width: 100%;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .input-error-label {
+    width: 100%;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #CD1818;
+    margin-top: -8px;
+    margin-bottom: 4px;
+  }
+  
+  .input {
+    font-family: 'Jost';
+    color: #212529;
+    font-size: 12px;
+    border-radius: 4px;
+    height: 32px;
+    width: calc(100%);
+    margin-bottom: 22px;
+    padding: 0 8px;
+    outline: none;
+    border: 1px solid #CCC;
+    outline: none;
+    transition: border .3s ease;
+    background-color: #FFF;
+  }
+  .input:focus {
+    border-color: #FFF;
+    border: 1px solid #212529;
+  }
+  
+  .button-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  /* CSS */
+  .button {
+    align-self: flex-end;
+    background-color: #FFF;
+    color: #212529;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 16px;
+    height: 40px;
+    font-weight: bold;
+    font-family: 'Jost';
+    cursor: pointer;
+    outline: none;
+    padding: 0px 14px;
+    padding-top: 2px;
+    text-align: center;
+    transition: all .3s ease;
+    user-select: none;
+  }
+  
+  .button:disabled {
+    pointer-events: none;
+  }
+  
+  .button:hover {
+    background-color: #212529;
+    color: #EEE;
+  }
+  
+  .button:active {
+    box-shadow: none;
+  }
+  
